@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "비체올린",
+    "slug": "vicheollin",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "vicheollin",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "cloud.nangman.vicheollin"
+    },
+    "android": {
+      "package": "cloud.nangman.vicheollin",
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": ["expo-router", "expo-font"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
